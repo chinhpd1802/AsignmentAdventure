@@ -404,7 +404,10 @@ body{
         padding-right: 25%;
         
     }
-   
+    .body .country-flag {
+       margin-top:10px;
+      
+    }
    .web .body .title-body{
        grid-column: 1/3;
       
