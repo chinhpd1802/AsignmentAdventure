@@ -1,0 +1,430 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    font-size: 10px; 
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   overflow-x: hidden;
+}
+
+.web{
+    display: grid;
+    grid-template-columns: 100%;
+    
+}
+
+.web .item-web{
+    background-color: aqua;
+    
+   
+}
+.web  .header{
+    background-image: url("../img/mobile-size/headeer-web-bg.png");
+   background-repeat: no-repeat;
+   background-size:  100% 60px;
+   color: blueviolet;
+   display: flex;
+   
+  
+}
+.web .header .logo{
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    
+    
+}
+.web .header .logo img{
+    width: 120px;
+    height: 30px;
+    margin: 10px 10px 10px 15px;
+    
+    
+}
+.web .header .logo .pc-logo{
+    display: none;
+}
+.web .header [class*="btn"]{
+    display: none;
+}
+
+.web .header .menu-icon{
+    margin-left: 120px;
+    margin-right: 15px;
+    padding: 15px 0 10px 0;
+}
+.web .header .menu-icon svg{
+   margin: auto 0 auto 0;
+}
+.web .navaration {
+    background-image: url("../img/mobile-size/Group\ 11.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #2825fc;
+   
+}
+.web .navaration .catagory-web {
+    margin: 20px 15px 5px 15px;
+    font-size: 2rem ;
+    background: linear-gradient(to right, #2e2868 10%, #2825fc 5%,#2825fc 45%, #f7b502 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.navaration .catagory-web .first-title{
+    margin:0 0 0 0;
+}
+.navaration .catagory-web .second-title{
+  font-weight: 100;
+  
+}
+.web .navaration .content-nav {
+    color:#2e2868 ;
+    font-size: 0.8rem;
+    margin: 10px 15px 5px 15px;
+
+}
+.web .navaration .nav-bar{
+    display: flex;
+    justify-content: center;
+    margin: 20px 15px 0 15px;
+}
+.nav-bar .btn{
+    
+    height: 40px;
+    width: 120px;
+    border: 2px solid rgb(134, 141, 167);
+    border-left: none;
+    border-bottom: none;
+    text-align: center;
+    padding: 8px;
+}
+.nav-bar .btn a{
+    text-decoration: none;
+    color: #414044;
+    font-size: 1rem;
+  
+}
+.nav-bar .btn-1{
+    border: 2px solid rgb(134, 141, 167);
+    border-bottom: none;
+    background-color: #f5f4f4;
+    
+}
+
+.nav-bar .btn:hover{
+    background-color: #f5f4f4;
+    border-bottom: none;
+    border: 2px solid #2926cc;
+    
+    border-bottom: none;
+}
+.navaration:hover{
+    border-bottom: none;
+}
+
+.web .body{
+    background-color: #f5f4f4;
+    color: #414044;
+    display :grid;
+    grid-template-columns:100%;
+}
+.web .body .title-body{
+    color: #414044;
+    margin: 20px 10px 10px 15px;
+    font-size: 1.75rem;
+}
+.web .body .title-body .say-hi{
+    color: #727275;
+    font-weight: 100;
+}
+.web .body .title-body .country-title{
+    background: linear-gradient(to right, #060486 5%,#3935f5 65%, #4760f1 70%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top:-15px;
+}
+.body .description{
+    color: #727275;
+    font-size: 0.9rem;
+    
+}
+
+.web .body .conntry-flag{
+    font-size: 0.8rem;
+}
+.web .body .flag{
+
+ padding: 20px 20% 10px 20%;
+ text-align: center;
+ font-size: 0.8rem;
+
+   
+}
+.body .country-flag img{
+    max-width: 100%;
+    height: auto;
+    border: 0.5px solid rgb(146, 141, 141);
+  
+}
+.body .country-flag span{
+    color:rgb(119, 118, 118);
+}
+
+.web .body .icon-flight{
+
+    padding: 20px 20% 10px 20%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+}   
+.body  .icon-flight .content-card .km{
+    color: #060486;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.body  .icon-flight .content-card .desception-card{
+   
+    margin-top:10px;
+    font-size: 0.72rem;
+    font-weight:100;
+    
+}
+.body .list-box{
+    display: flex;
+    flex-direction:column;
+    
+    justify-content: center;
+    margin:10px 15px 40px 15px;
+}
+.body .list-box .item-box{
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 2px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.body .list-box .item-box-first{
+    border-top: 2px solid rgb(170, 167, 167);
+}
+.body .list-box .item-box .content-box{
+    padding: 5px 20px 5px 10px;
+    margin: 5px 0 5px 0px;
+    width: 100px;
+    color: #8f8f8f;
+    font-size: 0.9rem;
+   
+}
+.list-box .item-box .col-2{
+    border-right: none;
+    flex-grow: 3;
+    text-align: left;
+}
+.list-box .item-box .col-1{
+   
+    border-right: 1px solid rgb(170, 167, 167);
+    text-align: center;
+    
+}
+
+.web .footer{
+   background-color: #102466;
+ 
+    
+}
+.web .footer .icon-footer{
+    margin: 5px 15px 10px 15px;
+}
+.web .footer .content-footer{
+ text-align: center;   
+}
+.web .footer img{
+   
+     width: 100%;
+     
+ }
+@media all and (min-width: 550px){
+    body{
+        background-color:  #f5f4f4;
+        font-size: 100%;
+    }
+    .web .item-web{
+        background-color: #f5f4f4;
+        background-image: none;
+    }
+   
+    .web  .header{
+        background-image: url("../img/pc-size/header-bg.png");
+       background-repeat: no-repeat;
+       background-size:  100% 60px;
+       color: blueviolet;
+       display: flex;
+       
+      
+    }
+    .web .header .item-header{
+        width: 200px;
+        height: 50px;
+        margin: 5px;
+       
+        margin: 5px 20px 5px 0px;
+    }
+    .web .header .logo img{
+        width: 150px;
+        height: 40px;
+        margin: 5px 10px 5px 15px;
+        
+        
+    }
+    .web .header [class*="btn"]{
+        display: block;
+    }
+    .web .header .btn{
+        margin:0;
+        height: 60px;
+        position: relative;
+        
+    }
+    .web .header .btn img{
+        width: 120px;
+        height: 30px;
+        margin: 10px 10px 10px 15px;
+        
+    }
+    .web .header .btn:hover{
+        background-color: #f7b502;
+        color: #060486;
+        
+    }
+    .web .header .logo{
+        
+        margin: 5px 20px 5px 200px;
+       
+        
+    }
+    .web .header .logo .mobile-logo{
+        display: none;
+    }
+    .web .header .logo .pc-logo{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .web .header .menu-icon {
+        display: none;
+    }
+    
+    .web .navaration {
+        background-image: url("../img/pc-size/bg-nav.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-bottom:2px solid #2825fc;
+      
+        
+        
+
+       
+    }
+    .web .navaration .item-nav{
+        width: 100%;
+    }
+    .web .navaration .flex-fix{
+        display: flex;
+    }
+    .web .navaration .flex-fix .item-flex{
+        width: 30%;
+    }
+    .web .navaration .catagory-web {
+        margin: 0 35% 0 25%;
+        font-size: 2.5rem ;
+        background: linear-gradient(to right, #2e2868 10%, #2825fc 5%,#2825fc 80%, #f7b502 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        width: 30%;
+        
+    }
+    .web .navaration .catagory-web-title-1 {
+        margin-top: 40px;
+        
+    }
+    .web .navaration .catagory-web-title-2{
+        margin-top: -10px;
+        width: 40%;
+        flex-grow:1; 
+        margin: 0 0px 0 25%;
+        font-size: 2.5rem ;
+        background: linear-gradient(to right, #2e2868 10%, #2825fc 5%,#2825fc 80%, #f7b502 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        width: 60%;
+        
+        
+    }
+ 
+    .web .navaration .flex-fix .content-nav{
+        margin: 0px 25% 5px 0;
+        font-size: 0.5rem;
+        flex-grow:4; 
+        width: 55%;
+        
+        
+        
+    }
+    .web .navaration .flex-fix .content-nav .content{
+        margin: 0px 25% 5px 0;
+        padding-top: 12px;
+        font-size: 0.7rem;
+        flex-grow:3; 
+        width: 78%;
+    }
+    .web .navaration .nav-bar{
+        
+        justify-content: flex-start;
+        margin: 20px 25% 0 25%;
+    }
+   
+    .web .body {
+        grid-template-columns: 33% 33% 33%;
+        margin: 0 25% 10px 25%;
+    }
+    .body .title-body .description{
+        color: #727275;
+        font-size: 0.9rem;
+        padding-right: 25%;
+        
+    }
+   
+   .web .body .title-body{
+       grid-column: 1/3;
+      
+   }
+   .web .body .list-box{
+    grid-column: 1/4;
+}
+
+.web .footer{
+    background-color: #102466;
+    width: 100%;
+    height: auto;
+}
+.footer .icon-footer{
+    display: none;
+}
+.footer img{
+    width: 100%;
+    height: auto;
+}
+    
+}
+
+
+
+
